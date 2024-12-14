@@ -30,6 +30,7 @@ Sombras con CSS: https://getcssscan.com/css-box-shadow-examples
 	--icon-color: light-dark(#2670cb, #ffffff);
 	--bg-color-section1: light-dark(#eee, #0b2240);
 	--bg-color-section2: light-dark(#fafafa, #6a6a6a);
+	--bg-color-section2-moon: light-dark(#6a6a6a, #fafafa);
 	--bg-color-buttons: light-dark(#e0e0e0, #6a6a6a);
 
 	--btn-shadow: #f21238;
@@ -93,7 +94,7 @@ html {
 	&:has([name='color-scheme']:checked) {
 		color-scheme: dark;
 	}
-	&:has([name='color-scheme']:checked) {
+	&:has([name='color-scheme']) {
 		color-scheme: light;
 	}
 }
@@ -278,7 +279,7 @@ html {
 
 						&.navbar__toggle--darkmode-moon {
 							right: 3px;
-							color: #7e7e7e;
+							color: gray;
 							transition: 0.3s;
 						}
 					}
@@ -300,8 +301,8 @@ html {
 							color: #7e7e7e;
 						}
 
-						.bx-moon {
-							color: var(--bg-color-section2);
+						.bxs-moon {
+							color: var(--bg-color-section2-moon);
 						}
 					}
 				}
@@ -327,7 +328,7 @@ html {
 						position: absolute;
 						top: 2px;
 						left: 2px;
-						background-image: url(../img/mexico-language.png);
+						background-image: url(../assets/img/spa.png);
 						background-size: cover;
 						background-repeat: no-repeat;
 						border-radius: 50%;
@@ -343,7 +344,7 @@ html {
 						&::after {
 							left: 40px;
 							transform: translateX(-100%);
-							background-image: url(../img/reino-unido.png);
+							background-image: url(../assets/img/eng.png);
 						}
 					}
 				}
@@ -659,14 +660,14 @@ html {
 /* ============= Contact ============= */
 .contact {
 	a {
-		color: aquamarine;
+		color: rgb(0, 0, 0);
 		transition: 0.5s ease;
 		outline: none;
 		&:visited {
 			color: #b50bb8;
 		}
 		&:hover {
-			color: #1effa5;
+			color: #172a4d;
 		}
 		&:focus {
 			color: #9e0753;
