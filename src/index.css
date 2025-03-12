@@ -85,6 +85,10 @@ html {
 	a {
 		text-decoration: none;
 	}
+
+	.a-btn {
+		color: var(--bg-color-section1);
+	}
 	img {
 		max-width: 100%;
 		display: block;
