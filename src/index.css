@@ -911,9 +911,13 @@ html {
 	.contact {
 		.contact__container {
 			grid-template-columns: 0.5fr 1fr;
+			color: var(--primary-color);
 		}
 	}
 
+	.contact__info-item {
+		color: var(--primary-color);
+	}
 	.footer {
 		.footer__container {
 			grid-template-columns: repeat(2, 1fr);
