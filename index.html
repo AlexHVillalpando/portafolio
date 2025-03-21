@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Evelyn Huerta Villalpando">
+  <meta name="author" content="Oscar Alejandro Huerta Villalpando">
   <meta name="description"
     content="Me llamo Oscar, estoy estudiando programación, me estoy desarrollando como profesional en Desarrollador Full Stack, especializándome en el diseño y desarrollo de la interfaz">
   <meta name="keywords" content="full-stack, desarrollador-sitio-web, curriculum-programador">
@@ -36,8 +36,10 @@
 <body>
   <header class="header">
     <nav class="navbar grid--container flex--container">
-      <div class="navbar__logo flex--container "><img src="assets/IMG MIAS/ICONO LOGO.png" alt="icono" width="20"
-          height="20">Alejandro Villalpando</div>
+      <div class="navbar__logo flex--container ">
+        <!-- <img src="assets/IMG MIAS/ICONO LOGO.png" alt="icono" width="20" height="20"> -->
+        Oscar Villalpando
+      </div>
 
       <div id="nav" class="navbar__menu spanish">
         <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
@@ -95,8 +97,8 @@
 
         <ul class="home__social flex--container">
           <li class="home__social-item">
-            <a class="home__social-link" href="https://www.linkedin.com/in/oscar-alejandro-h-996362192/"
-              target="_blank"><i class="bx bxl-linkedin bx-tada-hover"> </i></a>
+            <a class="home__social-link" href="https://www.linkedin.com/in/oscar-h-996362192/" target="_blank"><i
+                class="bx bxl-linkedin bx-tada-hover"> </i></a>
           </li>
           <li class="home__social-item">
             <a class="home__social-link"
@@ -115,7 +117,7 @@
         </ul>
 
         <div class="home__info">
-          <h1 class="home__title">Hola, soy Oscar Alejandro</h1>
+          <h1 class="home__title">Hola, soy Oscar!</h1>
 
           <p class="home__description">
             Soy un profesional que incursionó en el mundo de la ingeniería mecatrónica, adquiriendo competencias en la
@@ -125,7 +127,7 @@
         </div>
 
         <div class="home__buttons">
-          <a class="btn btn--primary" href="./assets/CV/cv-oscar-huerta(es).pdf" title="Descargar mi CV"
+          <a class="btn btn--primary" href="./assets/CV/cv oscar-huerta-(es-en).pdf" title="Descargar mi CV"
             download="my_cv" rel="noreferrer nofollow">
             Descarga mi CV
           </a>
@@ -172,7 +174,7 @@
                 <h3 class="skills__card-title">HTML</h3>
 
                 <p class="skills__card-description">
-                  Conocimiento suficiente en desarrollo de páginas web.
+                  Conocimiento intermedio en desarrollo de páginas web.
 
 
                 </p>
@@ -257,13 +259,25 @@
               <div class="skills__card-container">
                 <h3 class="skills__card-title">NodeJS</h3>
                 <p class="skills__card-description">
-                  Conocimientos necesarios para el desarrollo de APIs que alimentan una base de datos,
+                  Conocimientos necesarios para el desarrollo de APIs que alimentan una base de datos usando Typescript,
                   estándares de seguridad web, protección de datos, y la documentación de la misma.
 
                 </p>
               </div>
             </details>
 
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class='bx bxl-postgresql'></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">PostgreSQL</h3>
+                <p class="skills__card-description">
+                  Conocimiento básico necesario sobre la creación de una base de datos, alimentada
+                  usando una API junto con Typescript y probada usando Postman.
+                </p>
+              </div>
+            </details>
 
           </div>
         </div>
@@ -297,16 +311,16 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  <a href="https://totinovebedex.netlify.app/" target="_blank" class="a-btn">
+                <a href="https://totinovebedex.netlify.app/" target="_blank">
+                  <button class="btn projects__button" type="button">
                     VER DESPLIEGUE
-                  </a>
-                </button>
-                <button class="btn projects__button" type="button">
-                  <a href="https://github.com/AlexHVillalpando/pokedex" target="_blank" class="a-btn">
+                  </button>
+                </a>
+                <a href="https://github.com/AlexHVillalpando/pokedex" target="_blank" class="a-btn">
+                  <button class="btn projects__button" type="button">
                     VER CÓDIGO
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -326,16 +340,16 @@
                 usuarios para manejar reservas. </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  <a href="https://booking-oscar.netlify.app/" target="_blank" class="a-btn">
+                <a href="https://booking-oscar.netlify.app/" target="_blank" class="a-btn">
+                  <button class="btn projects__button" type="button">
                     VER DESPLIEGUE
-                  </a>
-                </button>
-                <button class="btn projects__button" type="button">
-                  <a href="https://github.com/AlexHVillalpando/bookingApp" target="_blank" class="a-btn">
+                  </button>
+                </a>
+                <a href="https://github.com/AlexHVillalpando/bookingApp" target="_blank" class="a-btn">
+                  <button class="btn projects__button" type="button">
                     VER CÓDIGO
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -357,12 +371,16 @@
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  <a href="https://oscar-weatherapp.netlify.app/" target="_blank" class="a-btn">VER DESPLIEGUE</a>
-                </button>
-                <button class="btn projects__button" type="button">
-                  <a href="https://github.com/AlexHVillalpando/weatherApp" target="_blank" class="a-btn">VER CÓDIGO</a>
-                </button>
+                <a href="https://oscar-weatherapp.netlify.app/" target="_blank" class="a-btn">
+                  <button class="btn projects__button" type="button">
+                    VER DESPLIEGUE
+                  </button>
+                </a>
+                <a href="https://github.com/AlexHVillalpando/weatherApp" target="_blank" class="a-btn">
+                  <button class="btn projects__button" type="button">
+                    VER CÓDIGO
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -386,7 +404,7 @@
               <i class="bx bxl-whatsapp"></i>
 
               <span class="contact__info-number">
-                <a href="https://wa.me/+528126255537?text=Hola, me gustaría saber más sobre tus proyectos como profesional Full Stack"
+                <a href="https://wa.me/+528126255537?text=Hola, me gustaría saber más sobre tus proyectos como profesional Full Stack."
                   target="_blank" rel="noreferrer no follow">Enviar mensaje a WhatsApp</a>
               </span>
             </div>
@@ -446,7 +464,7 @@
               <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
             </div>
             <dialog id="modal">
-              Formulario enviado con éxito!
+              ¡Formulario enviado con éxito!
               <button type="reset" id="btn_close-modal">Cerrar</button>
             </dialog>
 
@@ -474,14 +492,14 @@
         <ul class="footer__social-list">
 
           <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.instagram.com/otiugnalam/" target="_blank"
+            <a class="footer__social-link" href="https://www.instagram.com/malangher505/" target="_blank"
               rel="noreferrer nofollow"><i class="bx bxl-instagram"></i></a>
           </li>
 
 
           <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.linkedin.com/in/oscar-alejandro-h-996362192/"
-              target="_blank" rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
+            <a class="footer__social-link" href="https://www.linkedin.com/in/oscar-h-996362192/" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
           </li>
         </ul>
       </div>
